@@ -6,6 +6,8 @@ import ApiFetch from './components/ApiFetch';
 // import TimerContainer from './components/TimerContainer'
 import AppContext from './contexts/AppContext';
 import B from './components/B';
+import BasicReducer from './components/BasicReducer';
+
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
           {/* <TimerContainer /> */}
           <ApiFetch />
           <B />
-
+          <BasicReducer />
         </header>
       </div>
     </AppContext.Provider>

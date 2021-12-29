@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import ApiFetch from './components/ApiFetch';
+// import ApiFetch from './components/ApiFetch';
 // import Basic2 from  './components/Basic2'
 // import BasicUseEffect from  './components/BasicUseEffect'
 // import TimerContainer from './components/TimerContainer'
 import AppContext from './contexts/AppContext';
-import B from './components/B';
-import BasicReducer from './components/BasicReducer';
-import CompB from './components/CompB';
+// import B from './components/B';
+// import BasicReducer from './components/BasicReducer';
+// import CompB from './components/CompB';
+
 
 import {useReducer} from 'react'
+import Memo from './components/Memo';
 
 const initialState = 0
 const reducer = (currentState, action) => {
@@ -38,8 +40,9 @@ function App() {
           {/* <ApiFetch /> */}
           {/* <B /> */}
           {/* <BasicReducer /> */}
-          Count {count}
-          <CompB />
+          {/* Count {count} */}
+          {/* <CompB /> */}
+          <Memo />
 
         </header>
       </div>
